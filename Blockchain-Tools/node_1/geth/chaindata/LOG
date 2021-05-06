@@ -1,0 +1,37 @@
+=============== May 4, 2021 (CDT) ===============
+15:27:29.800389 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:27:29.809828 db@open opening
+15:27:29.814167 version@stat F·[] S·0B[] Sc·[]
+15:27:29.816716 db@janitor F·2 G·0
+15:27:29.816716 db@open done T·6.8886ms
+15:27:29.842941 db@close closing
+15:27:29.843464 db@close done T·523.1µs
+=============== May 4, 2021 (CDT) ===============
+15:29:22.486358 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:29:22.487415 version@stat F·[] S·0B[] Sc·[]
+15:29:22.487415 db@open opening
+15:29:22.487415 journal@recovery F·1
+15:29:22.772891 journal@recovery recovering @1
+15:29:22.782955 memdb@flush created L0@2 N·15 S·1KiB "H\xa7\x0f..B\xb6\xb0,v8":"\xf6\x8a\xc1..\\\xe7\x15,v5"
+15:29:22.782955 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+15:29:22.793002 db@janitor F·3 G·0
+15:29:22.793002 db@open done T·305.5868ms
+15:29:23.000345 table@compaction range L-1 "a":"b"
+15:29:23.000345 table@compaction L0·1 -> L1·0 S·1KiB Q·21
+15:29:23.030284 table@build created L1@5 N·15 S·1KiB "H\xa7\x0f..B\xb6\xb0,v8":"\xf6\x8a\xc1..\\\xe7\x15,v5"
+15:29:23.030790 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+15:29:23.031396 table@compaction committed F~ S~ Ke·0 D·0 T·31.0513ms
+15:29:23.037171 table@compaction range L-1 "o":"p"
+18:29:31.405160 db@close closing
+18:29:31.406259 db@close done T·1.0983ms
+=============== May 6, 2021 (CDT) ===============
+01:36:33.699659 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:36:33.702354 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+01:36:33.702354 db@open opening
+01:36:33.702354 journal@recovery F·1
+01:36:33.714600 journal@recovery recovering @3
+01:36:33.720030 memdb@flush created L0@6 N·13 S·768B "Dat..ion,v17":"unc..own,v26"
+01:36:33.732853 version@stat F·[1 1] S·1KiB[768B 1KiB] Sc·[0.25 0.00]
+01:36:33.742909 db@janitor F·5 G·1
+01:36:33.742909 db@janitor removing table-2
+01:36:33.744856 db@open done T·42.5017ms
